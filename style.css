@@ -1,0 +1,61 @@
+			html {
+				scroll-behavior: smooth;
+			}
+			
+			ul {
+				font-family: 'Century Gothic';
+			}
+
+			ul li a{
+				text-decoration: none;
+				color: black;
+			}
+			ul li a:hover {
+				text-decoration: underline;
+			}
+			ul li {
+				list-style: none;
+			}
+
+			.topLinks {
+				display: flex;
+				justify-content: space-around;
+			}
+			#Image {
+				display: block;
+				margin: 0 auto;
+			  	padding-top: 30px;
+				padding-bottom: 30px; 
+			}
+
+			.searchInput {
+				border: 2px solid grey;
+				border-radius: 20px;
+				transition: 0.3s;
+				padding: 20px;
+				display: block;
+				margin: 0 auto;
+				padding-right: 40vh;
+				outline: none;
+			}
+			.searchInput:hover {
+				box-shadow: 5px 10px #888888;
+				transition: 0.3s;
+				outline: none;
+			}
+
+			.flexbox {
+				display: flex;
+				justify-content: center;
+			}
+			.flexbox button {
+				background: `grey;
+				outline: none;
+				border: none;
+				padding: 2vh;
+				border-radius: 2vh; 
+			}
+			#gSearch {
+				margin-right: 5vh;
+				transition: 0.3s
+			}
